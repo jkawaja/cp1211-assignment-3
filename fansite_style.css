@@ -1,0 +1,98 @@
+body {
+  background-color: darksalmon;
+  padding: 20px;
+  
+}
+
+.grid-container{
+  border: 5px solid blac;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(3, lfr);
+  grid-template-rows: repeat(2, auto);
+} 
+
+h2 {
+  color: darkmagenta
+}
+
+.box {
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 25px;
+}
+
+.manbehindbox {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 20px;
+  padding: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: large;
+  color: aqua;
+  border-radius: 25px;
+}
+
+#imageformat {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  border-style: groove;
+  border-color: seagreen;
+  border-radius: 50%;
+  height: 300px;
+}
+
+#intro-content p {
+  color: green;
+  font-weight: 900;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+header {
+  background-image: "columbo_1.jpg";
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
+table, th, td, tr {
+  text-align: center;
+  border-collapse: collapse;
+  border: 2px solid;
+  width: 25%;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: green solid;
+  background-color: #333;
+}
+
+
